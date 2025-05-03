@@ -85,33 +85,37 @@
             <fieldset class="form__fieldset">
             <label for="Name-input" class="form__label">Name *
                 <input 
-                    required type="text" 
+                    id="Name-input"
+                    type="text" 
                     class="form__input" 
                     placeholder="Name Surname"
-                    id="Name-input">
+                    required>
             </label>
             <label for="Number-of-guests" class="form__label">Number of guests *
                 <input 
-                    required type="number" 
+                    id="Number-of-guests"
+                    type="number" 
                     class="form__input"
                     placeholder="1-8"
                     min="1"
                     max="8"
-                    id="Number-of-guests">
+                    required>
             </label>
             <label for="Date-&-Time" class="form__label">Date & Time *
                 <input 
-                    required type="datetime-local" 
+                    id="Date-&-Time"
+                    type="datetime-local" 
                     class="form__input"
                     placeholder="Name Surname"
-                    id="Date-&-Time">
+                    required>
             </label>
             <label for="Your-email" class="form__label">Your email *
                 <input 
-                    required type="email" 
+                    id="Your-email"
+                    type="email" 
                     class="form__input"
                     placeholder="email@email.com"
-                    id="Your-email">
+                    required>
             </label>
             </fieldset>
             <button class="form__button">Book a table</button>
@@ -126,6 +130,6 @@
     </main>
     <footer id="contacts" class="footer"></footer>
     </div>
-    
+
 </body>
 </html>
